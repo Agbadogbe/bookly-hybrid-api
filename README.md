@@ -42,7 +42,7 @@ Assurez-vous que les services et outils suivants sont installés et opérationne
 
 1.  **Cloner le dépôt** :
     ```bash
-    git clone <URL_DU_DÉPÔT>
+    git clone git@github.com:Agbadogbe/bookly-hybrid-api.git
     cd bookly-hybrid-api
     ```
 2.  **Installer les dépendances** :
@@ -113,7 +113,7 @@ Gérées par `hybridController.js`, ces routes interagissent avec les données d
 **Exemple de Corps de Requête PUT `/api/user-full/:id` :**
 
 ```json
-// Cette requête met à jour le nom (SQL) et les préférences (NoSQL) simultanément
+Cette requête met à jour le nom (SQL) et les préférences (NoSQL) simultanément
 {
   "name": "Alexandre Dumas",
   "preferences": ["Aventure", "Classique"]
